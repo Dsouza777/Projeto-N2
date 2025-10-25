@@ -26,19 +26,6 @@
     </div>
     <button class="btn secondary" id="logoutBtnDash">Sair</button>
   </div>
-
-  <script>
-    // Lógica simples da dashboard
-    document.querySelectorAll('.card-option').forEach(card => {
-      card.addEventListener('click', () => {
-        const iso = card.dataset.id;
-        alert(`Você selecionou a norma ISO ${iso}. (Etapa 3 será implementada em breve.)`);
-      });
-    });
-
-    document.getElementById('logoutBtnDash').addEventListener('click', () => {
-      window.location.href = 'index.html';
-    });
-  </script>
+<script src="dashboard.js"></script>
 </body>
 </html>

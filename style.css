@@ -197,3 +197,39 @@ label {
   margin-bottom: 8px;
   color: var(--accent);
 }
+/* ===== Questionário (Etapa 3.1) ===== */
+.questionario {
+  max-width: 600px;
+  margin: 40px auto;
+  background: var(--glass);
+  border: 1px solid rgba(255,255,255,0.05);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.questionario label {
+  display: block;
+  margin-top: 16px;
+  font-weight: 600;
+  color: #e0e0e0;
+}
+
+.questionario textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: none;
+  resize: vertical;
+}
+
+.questionario input[type="file"] {
+  margin-top: 8px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
