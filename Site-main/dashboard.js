@@ -3,8 +3,8 @@
     card.addEventListener('click', () => {
       const iso = card.dataset.id;
       /*window.location.href = `questionario.html?iso=${iso}`;*/
-      window.location.href='iso27001/questionario.html'
-      window.location.href='iso19249/questionario.html'
+      /*window.location.href='iso27001/questionario.html'*/
+      /*window.location.href='iso19249/questionario.html'*/
       window.location.href='iso27034/questionario.html'
 
     });
